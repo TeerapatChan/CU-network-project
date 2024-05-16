@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .h1 {
+    @apply text-xl;
+  }
+  .h2 {
+    @apply text-base;
+  }
+  .h3 {
+    @apply text-sm;
+  }
+}
